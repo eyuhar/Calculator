@@ -19,6 +19,8 @@ function operate(num1, num2, operator){
     return operator(num1, num2);
 }
 
+//was the last input an equals-operator?
+//used to avoid concatinating new numberInputs with last result
 let equalsFlag = false;
 
 const numberButtons = document.querySelectorAll(".number");
