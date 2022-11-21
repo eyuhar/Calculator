@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#frame {
+    background-color: darkgray;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: right;
+    
+}
+
+#operationScreen {
+    height: 35px;
+    padding: 10px;
+    font-size: large;
+}
+
+#resultScreen {
+    height: 35px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.btn {
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: large;
+}
+
+#clearButton {
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: large;
+}
