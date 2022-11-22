@@ -1,9 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    justify-content: center;
 }
 
 #frame {
@@ -61,4 +62,14 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     font-size: large;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.fa.fa-github {
+    font-size: 36px;
+    color: darkgray;
 }
