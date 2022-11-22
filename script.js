@@ -143,3 +143,15 @@ function processClearInput(){
     resultScreen.innerHTML = "0";
     operationScreen.innerHTML = "";
 }
+
+
+const allButtons = document.querySelectorAll("#buttons button, #clearButton");
+
+allButtons.forEach(element =>{
+    element.addEventListener("mousedown", e => {
+        e.target.setAttribute("style", "border:4px solid black;");
+    });
+    element.addEventListener("mouseup", e => {
+        e.target.setAttribute("style", "border:2px solid black;");
+    });
+});

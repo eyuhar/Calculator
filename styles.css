@@ -21,24 +21,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100px;
+    min-height: 140px;
     background-color: white;
     border-radius: 5px;
     border: 2px solid black;
     text-align: right;
-    
 }
 
-#operationScreen {
-    height: 35px;
+#operationScreen {    
     padding: 10px;
-    font-size: large;
+    font-size: medium;
+    word-break: break-all;
 }
 
 #resultScreen {
-    height: 35px;
+    
     padding: 10px;
     font-size: xx-large;
+    word-break: break-all;
 }
 
 #buttons {
